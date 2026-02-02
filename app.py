@@ -1,4 +1,3 @@
-cat > app.py << 'EOF'
 import argparse
 import os
 import joblib
