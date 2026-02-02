@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac
+.DS_Store
+
+# Model artifacts
+models/
+*.pkl
+*.joblib
+
+# Data files
+data/*.csv
+data/*.zip
+data/*.parquet
+
+# Secrets
+.env
+*.key
+
