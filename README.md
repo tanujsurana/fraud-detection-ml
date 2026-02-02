@@ -75,3 +75,13 @@ This approach prioritizes **catching fraudulent transactions** while balancing f
 ### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
+```
+### 2. Run training & evaluation
+```bash
+python app.py --data data/creditcard.csv --threshold 0.2
+
+```
+### 3. Output
+```bash
+models/fraud_model.joblib
+```
